@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Ne perdez pas de temps</title>
+    <link href="./css/reservation.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./css/images/icone.png" />
+  </head>
+  <body>
+    
+   <div id="header">
+      <div id="logo"> <a href="index.html">
+          <h2 class="logo_sec">Esi Hôtel</h2>
+        </a> </div>
+      <nav>
+        <ul>
+          <li><a class="Menu" href="./ville.html">Tigzirt</a></li>
+          <li><a class="Menu" href="./service.html">Services</a></li>
+          <li><a class="Menu" href="./chambres.html">Chambres</a></li>
+          <li><a class="Menu" href="./reservation.html">Réserver !</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+      <div id="corps">
+        <h1 class="ph1">Venez vivre des moments exceptionnels</h1>
+        <h1 class="bis">en famille, entre amis.</h1>
+        <h2 class="ph2">La réservation est rapide, simple et sécurisée. Profitez de nos offres exceptionnelles pour toute la famille !</h2>
+        
+        <span class="img_intro"><img src="./css/Images/intro.jpg" alt="famille" title="famille" class="intro_img"/></span>
+
+        <a href="#formulaire" class="reserver">Réserver maintenant</a>
+      
+
+
+
+         <div id="pourquoi">
+          <h1 class="TITRE">Voici d'excellentes raisons de choisir Esi Hôtel</h1>
+          
+          <div class="argg">
+            <img src="./css/Images/Test.png" alt="La famille, il n'y a que ça de vrai!" title="Famille" class="imageg"/>
+          
+            <div class=text>
+              <h1 class="textg">Un petit havre de paix</h1>
+              <p class="text_g">ESI Hôtel se veut être un établissement convivial où règne la paix et l'harmonie entre les différents pentionnaires. C'est pour cela que la sécurité et le bien-être de chacun sont notre priorité. Père, mère, enfants, cousins, tantes, oncles et compagnie, sont les bienvenus et ont la garantie de passer un très bon séjour. Les vacances sont bien faites pour profiter des gens que l'on aime, après tout.</p>
+            </div>
+
+        </div>
+
+        <div class="argd">
+
+            <img src="./css/Images/interieur.jpg" alt="Interieur de qualité" title="Chambre" class="imaged"/>
+          
+            <div class=text>
+              <h1 class="textd">Un intérieur de qualité</h1>
+              <p class="text_d">Les détails comptent énormément pour nous. Des fauteuils de grande classe, des téléviseurs 4K géants tout équipés, des lits au sommum du comfort, des rideaux choisis avec soin, et des couleurs se mariants parfaitement les unes avec les autres créant ainsi un bal visuel harmonique auquel vient s'ajouter le doux parfum émanant de nos quelques 350 plantes dispercées tout autour et à l'intérieur de l'hôtel.</p>
+            </div> 
+
+        </div>
+
+        <div class="argg">
+            <img src="./css/Images/kitesurf.jpg" alt="kitesurf" title="kitesurf" class="imageg"/>
+          
+            <div class=text>
+              <h1 class="textd">Des prestations diverses</h1>
+              <p class="text_d">Chez Esi-Hôtel, on fait les choses en grand. Nous vous proposons de choisir parmi notre large palette d'activités disponibles : Elles vont de la piscine, sauna en intérieur au kitesurf, balade en hélicoptère, saut en barachute et visite ruines romaines en extérieur.</p> 
+              <p class="text_d"><a href="service.html" class="decouvrir">Decouvrir les activités disponibles</a></p>
+            </div>
+
+        </div>
+
+        <div class="argd">
+
+            <img src="./css/Images/service.jpg" alt="Personnel" title="Personnel" class="imaged"/>
+          
+            <div class=text>
+              <h1 class="textd">Un personnel dévoué</h1>
+              <p class="text_d">Notre équipe de 60 professionnels est chargée de s'occuper de tous les aspects de votre séjour. Ils seront là pour répondre au moindre de vos requêtes avec joie et bonne humeur. Du grand portail externe aux draps de vos lits, tout est minutieusement calibré pour vous aider à vous sentir comme chez vous. Si vous manquez de quoi que ce soit, il suffit de demander!</p>
+            </div> 
+
+        </div>
+       
+
+
+
+        <div id="formulaire">
+          <h1 class="form">Réservez dès maintenant !</h1>
+
+          <div class="fusion">
+            <img src="./css/Images/letsgo.jpg" alt="Welcome!" title="Welcome" class="welcome" />
+        <form id="form" action="http://www.esi-hotel.com/reserver.php" method="POST">
+  
+                <div class="tab"><h2 class="title_form">Informations basiques</h2>
+                    <p><input placeholder="Prénom" oninput="this.className = ''" name="fname"></p>
+                    <p><input placeholder="Nom" oninput="this.className = ''" name="lname"></p>
+                </div>
+                <div class="tab"><h2 class="title_form">Date de naissance ? (au moins 18ans)</h2>
+                    <p><input placeholder="dd" oninput="this.className = ''" name="dd" type="number" min="1" max="31"></p>
+                    <p><input placeholder="mm" oninput="this.className = ''" name="nn" type="number" min="1" max="12"></p>
+                    <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy" type="number" min="1899" max="1999"></p>
+                </div>
+                <div class="tab"><h2 class="title_form">Comment vous contacter?</h2>
+                    <p><input placeholder="E-mail" oninput="this.className = ''" name="email" type="email"></p>
+                    <p><input placeholder="Numéro de téléphone" oninput="this.className = ''" name="phone" type="tel"></p>
+                </div>
+                <div class="tab"><h2 class="title_form">Informations relatives à l'offre</h2>
+                <p><input placeholder="Type de chambre (double/simple)" type="" oninput="this.className = ''" name="chmbr"></p>
+                <p><input placeholder="Vue (Mer/Ville)" oninput="this.className = ''" name="vue"></p>
+                <p><input placeholder="Date d'arrivée (dd/mm/yyyy)" oninput="this.className = ''" name="date"></p>
+                </div>
+                <div style="overflow:auto;">
+                <div style="float:right;">
+                  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Retour</button>
+                  <button type="button" id="nextBtn" onclick="nextPrev(1)">Suivant</button>
+                </div>
+                </div>
+ 
+                <div style="text-align:center;margin-top:40px;">
+                  <span class="step"></span>
+                  <span class="step"></span>
+                  <span class="step"></span>
+                  <span class="step"></span>
+                </div>
+            </form>
+
+
+        </div>
+      
+             </div>
+
+
+
+        <div id="footer">
+        <div>
+          <div class="reseaux">
+            <h3 class="title_section">Réseaux Sociaux</h3>
+            <a href="https://facebook.com/ESIHotel"><img src="./css/Images/Facebook.png" class="r_s" title="Facebook" alt="Facebook d'ESI-Hôtel"></a> 
+            <a href="https://twitter.com/ESIHotel"><img src="./css/Images/Twitter.png" class="r_s" tilte="Twitter" alt="Twitter d'ESI-Hôtel"></a> 
+            <a href="https://Instagram.com/ESIHotel"><img src="./css/Images/Insta.png" class="r_s" title="Instagram" alt="Visionnez nos photos sur instagram!"></a>
+            <a href=""><img src="./css/Images/LinkedIn.png" title="LinkedIn" class="r_s" alt="Rejoignez-nous sur LinkedIn"></a> 
+          </div>
+        </div>
+    </div> 
+
+
+
+      </div>
+    
+
+
+
+      <script src="./js/reservation.js" type="text/javascript"></script>
+      <script type="text/javascript">
+      var currentTab = 0;
+      showTab(currentTab);
+    </script>
+    </body>
+</html>

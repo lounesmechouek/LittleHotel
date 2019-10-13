@@ -1,0 +1,255 @@
+/* ------------------------- POLICES ---------------------------*/
+@font-face {
+    font-family: 'LOGO';
+    src: url('./Polices/logos-webfont.woff2') format('woff2'),
+         url('./Polices/logos-webfont.woff') format('woff'),
+         url('./Polices/LOGOS.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper';
+    src: url('./Polices/COOPBL.TTF') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -------------------- HEADER ------------------------------------- */
+/* --------------------------------------------------------------- */
+
+.logo_sec{
+	font-family:'LOGO',sans-serif,Arial;
+	font-size: xx-large;
+	color:#000000;
+	font-weight:bold;
+}
+
+#header{
+	display: flex;
+	background-color: white;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: flex-end;
+
+}
+
+.mouvement {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#logo{
+	display: flex;
+	flex-direction: :column;
+}	
+
+nav ul{
+	list-style-type: none;  /*On enlève les puces des listes*/
+	display:flex;
+}
+
+nav li{
+	margin-right: 20px;
+}
+
+.Menu{
+	font-family: 'LOGO',Arial,serif;
+	font-weight:bold;
+	font-size:x-large;  
+	color:#000000;   
+																																								
+}
+
+.Menu:hover{
+	background-color:#fe3051;
+	border-radius: 5px;
+	border:1px solid #760001;
+	padding:3px 8px 0px 8px;
+	color:#ffffff;
+
+}
+
+/*---------------------------- BODY ----------------------------------------*/
+
+body, html{
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+	background-color: #CCCCCC;
+	overflow-x: hidden;
+}
+
+a{text-decoration: none;}
+
+
+
+.img_princ {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Welcome {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-family: 'LOGO';
+  	font-size: 100px;
+  	color:#ffffff;
+    
+}
+
+.btn1{
+	position: absolute;
+    top: 80%;
+    left: 24%;
+    font-family: 'LOGO';
+  	font-size: 30px;
+  	color:#ffffff;
+  	background-color: #fe3051;
+  	border-radius: 15px;
+	border: 2px solid #fe3051;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn2{
+	position: absolute;
+    top: 80%;
+    left: 44%;
+    font-family: 'LOGO';
+  	font-size: 30px;
+  	color:#ffffff;
+  	background-color: #fe3051;
+  	border-radius: 15px;
+	border: 2px solid #fe3051;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn3{
+	position: absolute;
+    top: 80%;
+    left: 62%;
+    font-family: 'LOGO';
+  	font-size: 30px;
+  	color:#ffffff;
+  	background-color: #fe3051;
+  	border-radius: 15px;
+	border: 2px solid #fe3051;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.histoire{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: space-around;
+	align-content: space-around;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.ville2{
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.text{
+	margin-left: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	color: #123456;
+	border: 2px solid #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#Histoire{
+	font-family: 'LOGO';
+	text-align: center;
+	margin-top: 100px;
+	color: #123456;
+	font-size: 70px;
+}
+
+hr{
+	width: 50%;
+	box-shadow: 5px 5px 4px 2px;
+	margin-bottom: 50px;
+}
+
+
+.activity{
+	display: flex;
+	flex-direction: row;
+	margin-left: 350px;
+}
+
+.act{
+	position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+ .text_img{
+ 	text-align: center;
+ 	font-family:'Arial';
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	color:#ffffff;
+ 	background-color: #222;
+ 	font-size: 12px;
+ 	margin-top: -4px;
+}
+
+.act:hover {opacity: 0.7;}
+
+#Activites{
+	font-family: 'LOGO';
+	text-align: center;
+	margin-top: 100px;
+	color: #123456;
+	font-size: 70px;
+}
+
+/* ------------------------------------------ Pied de page -------------------------------------- */
+#footer{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-image: url("./Images/ville1.jpg");
+	margin-top: 100px;
+	background-position: 100% 100%
+}
+
+.span
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr{
+	width: 50%;
+	box-shadow: 5px 5px 4px 2px;
+}
+
+.r_s{
+	width:49px;
+	height:50px;	
+	border-radius: 50%;
+}
+
+.title_section{
+
+	font-size: xx-large;
+	font-family:'LOGO',sans-serif,Arial;
+	margin-bottom: 2px;
+	color:white;
+}

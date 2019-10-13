@@ -1,0 +1,430 @@
+
+/* ------------------ DEFINITION POLICES ------------------------- */
+
+@font-face {
+    font-family: 'LOGO';
+    src: url('./Polices/logos-webfont.woff2') format('woff2'),
+         url('./Polices/logos-webfont.woff') format('woff'),
+         url('./Polices/LOGOS.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'Cooper';
+    src: url('./Polices/COOPBL.TTF') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* ----------------------------------- HEADER ------------------------------------------- */
+.logo_sec{
+	font-family:'LOGO',sans-serif,Arial;
+	font-size: xx-large;
+	color:#000000;
+	font-weight:bold;
+}
+
+#header{
+	display: flex;
+	background-color: white;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 100%;
+
+}
+
+.mouvement {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#logo{
+	display: flex;
+	flex-direction: :column;
+}	
+
+nav ul{
+	list-style-type: none;  /*On enlève les puces des listes*/
+	display:flex;
+}
+
+nav li{
+	margin-right: 20px;
+}
+
+.Menu{
+	font-family: 'LOGO',Arial,serif;
+	font-weight:bold;
+	font-size:x-large;  
+	color:#000000;   
+																																								
+}
+
+.Menu:hover{
+	background-color:#123456;
+	border-radius: 5px;
+	border:1px solid #123456;
+	padding:3px 8px 0px 8px;
+	color:#ffffff;
+
+}
+
+/* ----------------------------------- CORPS -------------------------------------------- */
+
+ 								/* PARTIE INTRO */
+
+body{
+	overflow-x: hidden;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+a{
+	text-decoration: none;
+	font-style: normal;
+}
+
+#corps{
+	display: flex;
+	flex-direction: column;
+}
+
+
+#corps{
+	background-image: url("./Images/fond_reserv.jpg");
+	display: flex;
+	background-repeat: no-repeat;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	position:absolute;
+	width:100%;
+}
+
+.img_intro{
+	margin-top: 40px;
+	/*box-shadow: 5px -7px 6px 2px;*/
+}
+
+.ph1{
+	color:#ffffff;
+	font-family:'LOGO', Arial;
+	font-size: 90px;
+	font-weight:bold;
+	text-align: center;
+	margin-bottom:0px;
+	text-shadow:1px 1px 1px 1px;
+
+
+}
+.bis{
+	color:#ffffff;
+	font-family:'LOGO', Arial;
+	font-size: 70px;
+	font-weight:bold;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-shadow:1px 1px 1px 1px;
+
+}
+
+.ph2{
+	color:#37322c;
+	font-family:'LOGO';
+	font-size: 30px;
+	font-weight:bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.reserver{
+	margin-top: 35px;
+	margin-bottom: 10px;
+	background-color:#123456;
+	border-radius: 20px;
+	border:1px solid #123456;
+	padding: 5px 10px 5px 10px;
+	color:#FFFFFF;
+	font-family: 'LOGO';
+	font-size: x-large;
+}
+
+.reserver:hover{
+	background-color:#fe3051;
+	border-radius: 20px;
+	border:1px solid #ffffff;
+	padding: 5px 10px 5px 10px;
+	color:#ffffff;
+
+}
+
+
+						/* PARTIE AVANTAGES */
+
+#pourquoi{
+	background-color:#CCCCCC;
+	width:100%;
+	margin-top: 10px;
+}
+
+.TITRE{
+	font-family: 'LOGO';
+	text-align: center;
+	font-size:60px;
+	color:#123456;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/* PHOTOS A GAUCHE */
+.argg{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-bottom: 60px;
+}
+
+
+.imageg{
+	box-shadow: 5px 8px 3px 5px;
+}
+
+
+.text{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.textg{
+	font-family:'LOGO';
+	font-size: 50px;
+	text-align: left;
+	margin-left: 150px;
+	color:#123456;
+}
+
+.text_g{
+	color:#554a44;
+	text-align: left;
+	text-align: justify;
+	font-family: 'Cooper';
+	font-size: 16px;
+	font-style: italic;
+	margin-left: 150px;
+	margin-right: 70px;
+	background-color: #CCCCCC;
+	border:1px solid #CCCCCC;
+}
+
+/* PHOTOS A DROITE */
+.argd{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: space-around;
+	align-content: space-around;
+	margin-bottom: 60px;
+	margin-top: 50px;
+	
+}
+
+.imaged{
+	box-shadow: -8px -8px 3px 2px;
+	position: right;
+	margin-right: 70px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.textd{
+	font-family: 'LOGO';
+	margin-left: 150px;
+	font-size: 50px;
+	color:#123456;
+	margin-left: 150px;
+}
+
+.text_d{
+	color:#554a44;
+	margin-left: 150px;
+	margin-right: 60px;
+	text-align: justify;
+	font-family: 'Cooper';
+	font-size: 16px;
+	font-style: italic;
+	background-color: #CCCCCC;
+	border:1px solid #CCCCCC;
+}
+
+.decouvrir{
+	margin-top: 35px;
+	margin-bottom: 10px;
+	background-color:#123456;
+	border-radius: 20px;
+	border:1px solid #123456;
+	padding: 5px 10px 5px 10px;
+	color:#FFFFFF;
+	font-family: 'Cooper';
+	font-size: 16px;
+
+}
+
+
+  			/* ---------------- FORMULAIRE ----------------------- */
+
+
+#formulaire{
+	background-color:#CCCCCC;
+	margin-top: 10px;
+}
+
+
+.form{
+	font-family: 'LOGO';
+	text-align: center;
+	font-size:60px;
+	color:#123456;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+
+.fusion{
+	display:flex;
+	flex-direction: row;
+	align-content: space-between;
+
+}
+
+.title_form{
+	font-family: 'LOGO';
+	color:#123456;
+	font-size: 50px;
+
+}
+
+.welcome{
+	margin-bottom: 200px;
+	margin-top: 50px;
+	margin-left: 70px;
+	box-shadow: 5px 8px 3px 5px;
+}
+
+#form {
+  margin-top:50px;
+  margin-left: 70px;
+  margin-right: 0px;
+  font-family: 'Cooper';
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Cooper';
+  border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+  background-color: #FF0000;
+}
+
+
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #123456;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #fe3051;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #333333;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+
+
+
+
+
+/* -------------------------------------------- PIED ------------------------------------------- */
+#footer{
+	display:flex;
+	flex-direction: row;
+	justify-content: center space-around;
+	background-image:url("./Images/hotel_3.jpg");
+	width: 100%;
+	margin-top: 0px;
+}
+
+#fond{
+	
+	margin-top: 0px;
+	background-position: 100% 100%
+}
+
+.span
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr{
+	width: 50%;
+	box-shadow: 5px 5px 4px 2px;
+}
+
+.r_s{
+	width:49px;
+	height:50px;	
+	border-radius: 50%;
+}
+
+.title_section{
+
+	font-size: xx-large;
+	font-family:'LOGO',sans-serif,Arial;
+	margin-bottom: 2px;
+	color:#123456;

@@ -1,0 +1,273 @@
+/* ------------------ DEFINITION POLICES ------------------------- */
+
+@font-face {
+    font-family: 'LOGO';
+    src: url('./Polices/logos-webfont.woff2') format('woff2'),
+         url('./Polices/logos-webfont.woff') format('woff'),
+         url('./Polices/LOGOS.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Cooper';
+    src: url('./Polices/COOPBL.TTF') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -------------------- HEADER ------------------------------------- */
+/* --------------------------------------------------------------- */
+
+a{text-decoration: none;}
+
+.logo_sec{
+	font-family:'LOGO',sans-serif,Arial;
+	font-size: xx-large;
+	color:#000000;
+	font-weight:bold;
+}
+
+#header{
+	display: flex;
+	background-color: white;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: flex-end;
+
+}
+
+.mouvement {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#logo{
+	display: flex;
+	flex-direction: :column;
+}	
+
+nav ul{
+	list-style-type: none;  /*On enlève les puces des listes*/
+	display:flex;
+}
+
+nav li{
+	margin-right: 20px;
+}
+
+.Menu{
+	font-family: 'LOGO',Arial,serif;
+	font-weight:bold;
+	font-size:x-large;  
+	color:#000000;   
+																																								
+}
+
+.Menu:hover{
+	background-color:#fe3051;
+	border-radius: 5px;
+	border:1px solid #760001;
+	padding:3px 8px 0px 8px;
+	color:#ffffff;
+
+}
+
+
+
+
+
+/* ------------------- BODY ---------------------------------------- */
+body, html{
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+/* ------------------------ IMAGES DE DEBUT ------------------------------ */
+.img_som{
+	text-align: center;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	background-color: #CCCCCC;
+}
+
+.img_promo{
+	width:100%;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+}
+
+.lien_image img:hover{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}
+
+.text_promo{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: LOGO;
+    font-size: 120px;
+    color:#123456;
+}
+
+/* ------------------------- PARTIE PRESENTATION ---------------------------- */
+#presentation{
+	background-color: #CCCCCC;
+}
+
+#whyus{
+	background-color: #CCCCCC;
+}
+
+.accroche{
+	font-family: 'LOGO';
+	font-size: 70px;
+	color:#123456;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.accroche2{
+	font-family: 'LOGO';
+	font-size: 50px;
+	color:#123456;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #fe3051;
+	border-radius: 15px;
+	margin-left: 650px;
+	margin-right: 650px;
+}
+
+.photos{
+	display: flex;
+	flex-direction: row;
+}
+
+.image_pres{
+	border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top:50px;
+}
+
+.image_pres:hover {opacity: 0.7;}
+
+
+.docu{
+   text-align: center;
+   font-family: 'Cooper';
+   font-size: x-large;
+   color: #123456;
+   font-style: italic;
+   margin-left: 50px;
+   margin-right:50px;
+   margin-bottom: 0px;
+
+}
+
+hr{
+	width: 50%;
+	box-shadow: 5px 5px 4px 2px;
+	margin-bottom: 50px;
+}
+
+/* --------------------------------- ARGUMENTS -----------------------------------*/
+.why{
+	font-family: 'LOGO';
+	font-size: 70px;
+	color:#123456;
+	text-align: center;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #123456;
+	width: 50%;
+	margin-left: 450px;
+}
+
+.icones{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.arg_icon{
+	font-size: 30px;
+	font-family: 'LOGO';
+	margin-left:150px;
+	margin-top: 40px;
+	color:#123456;
+}
+
+.icone{
+	margin-left: 350px;
+	margin-bottom: 40px;
+}
+
+.reserver{
+	font-family: 'LOGO';
+	font-size: x-large;
+	color:#FFFFFF;
+	background-color:#123456;
+	
+	margin-top: 35px;
+	margin-bottom: 10px;
+	margin-left: 750px;
+	
+	border-radius: 20px;
+	border:1px solid #123456;
+	padding: 5px 10px 5px 10px;	
+}
+
+.reserver:hover{
+	background-color:#fe3051;
+	border-radius: 20px;
+	border:1px solid #fe3051;
+	padding: 5px 10px 5px 10px;
+	color:#ffffff;
+
+}
+
+/* ------------------------------------------ Pied de page -------------------------------------- */
+#footer{
+	display:flex;
+	flex-direction: row;
+	justify-content: center space-around;
+	background-image: url("./Images/hotel_3.jpg");
+	margin-top: 0px;
+	background-position: 100% 100%
+}
+
+.span
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr{
+	width: 50%;
+	box-shadow: 5px 5px 4px 2px;
+}
+
+.r_s{
+	width:49px;
+	height:50px;	
+	border-radius: 50%;
+}
+
+.title_section{
+
+	font-size: xx-large;
+	font-family:'LOGO',sans-serif,Arial;
+	margin-bottom: 2px;
+	color:white;
+}
